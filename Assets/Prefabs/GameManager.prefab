@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1069417996579984}
+  m_IsPrefabParent: 1
+--- !u!1 &1069417996579984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4588885426622796}
+  - component: {fileID: 114561708432963224}
+  - component: {fileID: 114369734196321730}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4588885426622796
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069417996579984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114369734196321730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069417996579984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf90acfe799f4779ad4752a1331078d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectSpawnRate: 0.5
+  width:
+    minimum: -8
+    maximum: 8
+  height:
+    minimum: -8
+    maximum: 8
+  length: 75
+  objCont:
+    minimum: 1
+    maximum: 4
+  pointCont:
+    minimum: 0
+    maximum: 1
+  staticObj:
+  - {fileID: 1548549539233070, guid: dd0eadbf7be50461eb93a911434bd1c0, type: 2}
+  - {fileID: 1765525127418570, guid: c1ac828808c4a4977b39acbdac2b4863, type: 2}
+  pointObj:
+  - {fileID: 1030932665537780, guid: 96cfc42dd895945d28bee287998deaf4, type: 2}
+--- !u!114 &114561708432963224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069417996579984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c44850bad0ac480394ab4a7a0efbc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
